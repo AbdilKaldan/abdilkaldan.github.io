@@ -34,7 +34,7 @@ a { color: #2a7ae2; text-decoration: none; }
 
 .container:hover .overlay { opacity: 1; }
 
-.overlay { position: absolute; bottom: 0; background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.5); color: #f1f1f1;  width: 100%; transition: .5s ease; opacity:0; color: white; font-size: 20px; padding: 20px; text-align: center; }
+.overlay { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: absolute; bottom: 0; background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.5); color: #f1f1f1;  width: 100%; transition: .5s ease; opacity:0; color: white; font-size: 20px; padding: 20px; text-align: center; }
 
 .site-nav .nav-trigger { display: none; }
 
