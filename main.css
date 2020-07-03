@@ -6,6 +6,8 @@
 
 .site-title, .site-title:visited { color: #424242; }
 
+.site-inf { width: auto;}
+
 a:visited { color: #1756a9; }
 
 a { color: #2a7ae2; text-decoration: none; }
@@ -26,7 +28,7 @@ a { color: #2a7ae2; text-decoration: none; }
 
 .inf { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 
-.inf-text { width:100%; color: #4a4a4a; }
+.inf-text { color: #4a4a4a; }
 
 .last-inf { color: #7d7d7d; }
 
