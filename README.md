@@ -1,1 +1,1 @@
-## This repository for [My Personel Website](http://abdilkaldan.com/)
+## This repository for [My Website](http://abdilkaldan.com/)
