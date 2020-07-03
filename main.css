@@ -20,7 +20,7 @@ a { color: #2a7ae2; text-decoration: none; }
 
 .top-inf { position: fixed; top: 35%; left: 50%; transform: translate(-50%, -50%);}
 
-.full-name { font-family: Impact, Charcoal, sans-serif; color: #4a4a4a; font-weight: bolder; margin-top: 30%;}
+.full-name { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #4a4a4a; font-weight: bolder; margin-top: 30%;}
 
 .surname { color:#7d7d7d;}
 
