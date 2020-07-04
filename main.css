@@ -32,7 +32,7 @@
 
 .last-inf { color: #7d7d7d; }
 
-.contact { position: fixed; width: auto; top: 60%; left: 50%; transform: translate(-50%, -50%); margin-top: 80px; }
+.contact { position: fixed; top: 60%; left: 52%; transform: translate(-50%, -50%); margin-top: 80px; width: auto; }
 
 .inf-title { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: fixed; top: 43%; left: 50%; transform: translate(-50%, -50%); }
 
