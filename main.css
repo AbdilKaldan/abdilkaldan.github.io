@@ -10,29 +10,31 @@
 
 .surname { color:#7d7d7d;}
 
-.linkedin { margin-right: 50px; }
+.linkedin { margin-right: 50px; width: 50px; height: 50px; }
 
-.instagram { margin-right: 50px; }
+.instagram { margin-right: 50px; width: 50px; height: 50px; }
 
-.mail { margin-right: 50px; }
+.mail { margin-right: 50px; width: 50px; height: 50px; }
 
-.inf { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.github { margin-right: 50px; width: 50px; height: 50px; }
 
-.inf-text { color: #4a4a4a; }
+.inf { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 
-@media only screen and (max-width: 768px) { .full-name{font-size: 1.7em;} .inf-text {font-size: 1em;} .inf-title{ font-size: .8em;}}
+.inf-text { color: #4a4a4a; text-align: center; }
 
-@media only screen and (max-width: 375px) { .inf-text { margin-top: 30%;} .contact { margin-top: 50px;} .inf-title{ font-size: .8em;}}
+@media only screen and (max-width: 768px) { .full-name{font-size: 1.7em;} .inf-text {font-size: 1em;} .inf-title{ font-size: .8em;} }
 
-@media only screen and (max-height: 320px) { .img{ width: 72px; height: 72px; } .full-name { font-size: x-large } .inf-title { margin-top: 10px; font-size: small; } .inf-text { margin-top: 55px; font-size: medium } .contact { margin-top: 30px; } }
+@media only screen and (max-width: 375px) { .inf-text { margin-top: 30%;} .inf { margin-top: 20px; } .contact { margin-top: 50px;} .inf-title{ font-size: .8em;} .linkedin { margin-right: 50px; width: 25px; height: 25px; }  .instagram { margin-right: 50px; width: 25px; height: 25px; } .mail { margin-right: 50px; width: 25px; height: 25px; } .github { margin-right: 50px; width: 25px; height: 25px; } }
 
-@media only screen and (max-height: 700px) { .img{ width: 72px; height: 72px; } .full-name { font-size: x-large } .inf-title { margin-top: 10px; font-size: small; } .inf-text { margin-top: 55px; font-size: medium } .contact { margin-top: 30px; } }
+@media only screen and (max-height: 320px) { .img{ width: 72px; height: 72px; } .inf { margin-top: 40px; }  .full-name { font-size: x-large } .inf-title { margin-top: 10px; font-size: small; } .inf-text { margin-top: 55px; font-size: medium } .contact { visibility: hidden; } }
+
+@media only screen and (max-height: 700px) { .img{ width: 72px; height: 72px; } .full-name { font-size: x-large } .inf-title { margin-top: 10px; font-size: small; } .inf-text { margin-top: 55px; font-size: medium } .contact { margin-top: 80px; } }
 
 .last-inf { color: #7d7d7d; }
 
-.contact { position: fixed; width: auto; top: 60%; left: 50%; transform: translate(-50%, -50%);  }
+.contact { position: fixed; width: auto; top: 60%; left: 50%; transform: translate(-50%, -50%); margin-top: 80px; }
 
-.inf-title { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: fixed; top: 42%; left: 50%; transform: translate(-50%, -50%); }
+.inf-title { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: fixed; top: 43%; left: 50%; transform: translate(-50%, -50%); }
 
 .container:hover .overlay { opacity: 1; }
 
